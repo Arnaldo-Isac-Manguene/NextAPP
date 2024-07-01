@@ -7,7 +7,7 @@ function Home() {
         <h1>Home</h1>
         <p>Verificado</p>
         <p>Aterroziznte </p>
-        Visitar a página <Link href="/about"><a>Sobre nós</a></Link> na empresa ou ir a <a href="product">Produtos</a>
+        Visitar a página  <Link href="/about"><a>Sobre nós</a></Link> na empresa ou ir a <a href="product">Produtos</a>
         <br></br>
         <Image 
             src="/images/city.jpg" 

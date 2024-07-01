@@ -1,12 +1,13 @@
 {
-  "name": "NextAPP",
+  "name": "nextapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Arnaldo-Isac/NextAPP/issues"
   },
-  "homepage": "https://github.com/Arnaldo-Isac/NextAPP#readme"
+  "homepage": "https://github.com/Arnaldo-Isac/NextAPP#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "next": "^12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
