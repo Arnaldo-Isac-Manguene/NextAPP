@@ -6,13 +6,13 @@ function Home() {
     return <div className={styles.main}>
         <h1>Home</h1>
         <p>Verificado</p>
-        <p>Aterro </p>
+        <p>Aterrorizante </p>
         Visitar a página  <Link href="/about"><a>Sobre nós</a></Link> na empresa ou ir a <a href="product">Produtos</a>
         <br></br>
         <Image 
             src="/images/city.jpg" 
-            height="600px" 
-            width="400px" 
+            height="300px" 
+            width="200px" 
             alt="New Sitle" 
         />
 
