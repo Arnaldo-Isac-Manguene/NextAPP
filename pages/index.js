@@ -13,11 +13,11 @@ function Home() {
                     desafios se une à paixão por aprender e ensinar. Sou extremamente organizado e meticuloso, 
                     prezando pelo sigilo profissional com o mais alto rigor.
                 </p>
-                <strong>Contactos</strong>
+                <strong><h3>Contactos</h3></strong>
                 <ul className={styles.titulo}> 
                     <li className={styles.item}><strong>E-mail: </strong><a href='mailto:arnaldomanguene@gmail.com'>arnaldomanguene@gmail.com</a></li>
                     <li className={`${styles.item} 'row d-flex'`}><strong>Celular: </strong><label className=''>+258 879 428 034 &</label><label className='row ms-5 ps-4'> +258 848 428 034</label></li>
-                    <li className={styles.item}><strong>E-mail: </strong>arnaldomanguene@gmail.com</li>
+                    <li className={styles.item}><strong>Linked-in: </strong><a href='https://tinyurl.com/linkedin-arnaldo'>https://www.linkedin.com/in/arnaldo-manguene/</a></li>
                 </ul>
             </div>
             <div className='col-6'>
