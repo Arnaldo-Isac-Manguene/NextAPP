@@ -1,3 +1,19 @@
 .main{
     align-content: stretch;
 }
+
+.titulo {
+    padding: 0%;
+}
+
+.corpo{
+   padding: 0%;
+}
+
+.titulo, .corpo{
+    padding: 0%;
+}
+
+li.item{
+    list-style-type: none;
+}

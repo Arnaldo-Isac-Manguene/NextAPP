@@ -1,5 +1,8 @@
+/* @import 'bootstrap' */
+@import 'bootstrap/dist/css/bootstrap.min.css';
 *{
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

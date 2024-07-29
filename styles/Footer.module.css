@@ -1,8 +1,9 @@
 .footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     min-height: 100px;
+    padding-inline:40px;
     color: #eee;
     background: #444444;
 }
