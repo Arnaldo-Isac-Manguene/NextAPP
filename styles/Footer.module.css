@@ -6,3 +6,8 @@
     color: #eee;
     background: #444;
 }
+@media screen and (max-width: 720px) {
+    .footer{
+        display: block;
+    }
+}
