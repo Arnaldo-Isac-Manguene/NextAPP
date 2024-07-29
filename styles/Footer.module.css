@@ -4,13 +4,14 @@
     align-items: center;
     min-height: 100px;
     color: #eee;
-    background: #444;
+    background: #444444;
 }
 @media screen and (max-width: 720px) {
     .footer{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        background-color: #eee;
+        display: flex;
+        flex-direction: column-reverse;
+    }    
+    .footer p{
+        text-align: center;    
     }
 }
