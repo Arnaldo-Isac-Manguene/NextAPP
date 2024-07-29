@@ -6,9 +6,6 @@ export default function Footer(){
     return (
         <footer className={ styles.footer }>
             <p>Copyright &copy; { year.getUTCFullYear() }</p>
-            <p>
-                
-            </p>
         </footer>
     )
 }
