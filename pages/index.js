@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
+
 import styles from '../styles/Home.module.css'
+import Formulario from '../components/Formulario'
 
 function Home() {
+
     return <div className='container'>
         <div className='row'>
             <div className='col-6'>
@@ -30,7 +33,7 @@ function Home() {
                         alt="New Sitle" 
                         className='rounded-circle'
                     />
-                    <button className='btn btn-secondary'>Entrar</button>
+                    
                 </div>
             </div>
         </div>
@@ -46,6 +49,10 @@ function Home() {
                 </ul>
             </div>
         </div>
+        <div class="card" style="width: 18rem;">
+            <Formulario />
+        </div>
+
     </div>
 }
 
