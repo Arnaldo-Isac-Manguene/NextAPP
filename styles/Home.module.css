@@ -17,3 +17,10 @@
 li.item{
     list-style-type: none;
 }
+
+div.contacto{
+    justify-content: end;
+    display: flex;
+    margin-bottom: 2rem;
+    z-index: 1;
+}

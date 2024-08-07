@@ -24,7 +24,7 @@ function Home() {
                 </ul>
             </div>
             <div className='col-6'>
-                <div className=''>
+                <div className='d-flex justify-content-center'>
                     <Image 
                         src="https://media.licdn.com/dms/image/D4D03AQES8Lb83arL4w/profile-displayphoto-shrink_800_800/0/1711032096319?e=1727913600&v=beta&t=MKcTbw5VT6jravmuGgQ-VNWAqZN8Wg12p1mZOHvJdJ8" 
                         height={300} 
@@ -37,22 +37,63 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className=''>
-            <h2>Formação</h2>
-            <div>
-                <p>
-                    <strong>Universidade Eduardo Mondlane</strong>
-                </p>
-                <ul>
-                    <li className={styles.item}>Faculdade de Engenharia</li>
-                    <li className={styles.item}>Licenciatura em Engenharia informática</li>
-                </ul>
+        <div className='row mb-3'>
+            <div className='col-6'>
+                <h2>Formação</h2>
+                <div>
+                    <p>
+                        <strong>Universidade Eduardo Mondlane</strong>
+                    </p>
+                    <ul>
+                        <li className={styles.item}>Faculdade de Engenharia</li>
+                        <li className={styles.item}>Licenciatura em Engenharia informática</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-5 d-flex justify-content-end ms-3"  >
+                <Formulario />
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <Formulario />
+        <div className='row mb-3'>
+            <div>
+                <h3>Catalogo</h3>
+                <div class="row">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Special title treatment</h5>
+                            </div>                            
+                          <div class="card-body">                            
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Special title treatment</h5>
+                            </div>                            
+                            <div class="card-body">                                
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Special title treatment</h5>
+                            </div>                            
+                            <div class="card-body">                                
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 }
 
