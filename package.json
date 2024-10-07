@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Arnaldo-Isac/NextAPP#readme",
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "bootstrap": "^5.0.2",
     "material-icons": "^1.13.12",
     "next": "^12.3.0",

@@ -1,13 +1,30 @@
-const enviarMensagem = (event)=> {
+import emailjs from 'emailjs-com';
+
+const enviarMensagem = (event) => {
     event.preventDefault();
-    window.alert('olá');
-    return "Mnesagem enviada";
-}
+
+    const email = document.getElementById('email-form').value;
+    const mensagem = document.getElementById('message-form').value;
+
+    const templateParams = {
+        to_email: 'info@gmail.com',
+        from_email: email,
+        message: mensagem
+    };
+
+    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID')
+        .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            alert('Mensagem enviada com sucesso!');
+        }, (error) => {
+            console.error('FAILED...', error);
+            alert('Erro ao enviar a mensagem.');
+        });}
 
 export default function Formulario(){
     
     return (
-        <form onsubmit="enviarMensagem(event)" method="post" class="mx-3 form-control">
+        <form onsubmit={enviarMensagem} method="post" class="mx-3 form-control">
             <div class="mb-3">
                 <h4>Deixe uma mensagem</h4>
             </div>
