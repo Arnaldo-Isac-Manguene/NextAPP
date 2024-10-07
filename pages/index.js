@@ -49,7 +49,7 @@ function Home() {
                     </ul>
                 </div>
             </div>
-            <div class="col-5 ms-3  mt-5"  >
+            <div class="col-3 ms-3  mt-5"  >
                 <Formulario />
             </div>
         </div>
