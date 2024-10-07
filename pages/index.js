@@ -32,8 +32,7 @@ function Home() {
                         width={280} 
                         alt="New Sitle" 
                         className='rounded-circle'
-                    />
-                    
+                    />                    
                 </div>
             </div>
         </div>
@@ -50,7 +49,7 @@ function Home() {
                     </ul>
                 </div>
             </div>
-            <div class="col-5 ms-3"  >
+            <div class="col-5 ms-3  mt-5"  >
                 <Formulario />
             </div>
         </div>
