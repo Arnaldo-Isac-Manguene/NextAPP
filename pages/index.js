@@ -26,7 +26,7 @@ function Home() {
             <div className='col-6'>
                 <div className='d-flex justify-content-center'>
                     <Image 
-                        src="https://media.licdn.com/dms/image/D4D03AQES8Lb83arL4w/profile-displayphoto-shrink_800_800/0/1711032096319?e=1727913600&v=beta&t=MKcTbw5VT6jravmuGgQ-VNWAqZN8Wg12p1mZOHvJdJ8" 
+                        src="./images/pict.png" 
                         height={300} 
                         unoptimized
                         width={280} 
