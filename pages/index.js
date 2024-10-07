@@ -7,7 +7,7 @@ import Formulario from '../components/Formulario'
 function Home() {
 
     return <div className='container'>
-        <div className='row'>
+        <div className='row d-flex justify-content-between'>
             <div className='col-6'>
                 <h1 className={`'mt-2' ${styles.titulo}`} >PERFIL</h1>
                 <p className={`'text-justify mt-5' ${styles.corpo}`}> 
@@ -23,7 +23,7 @@ function Home() {
                     <li className={styles.item}><strong>Linked-in: </strong><a href='https://tinyurl.com/linkedin-arnaldo'>https://www.linkedin.com/in/arnaldo-manguene/</a></li>
                 </ul>
             </div>
-            <div className='col-6'>
+            <div className='col-4'>
                 <div className='d-flex justify-content-center'>
                     <Image 
                         src="./images/pict.png" 
@@ -37,7 +37,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className='row mb-3'>
+        <div className='row mb-3 d-flex justify-content-between'>
             <div className='col-6'>
                 <h2>Formação</h2>
                 <div>
@@ -50,7 +50,7 @@ function Home() {
                     </ul>
                 </div>
             </div>
-            <div class="col-5 d-flex justify-content-end ms-3"  >
+            <div class="col-5 ms-3"  >
                 <Formulario />
             </div>
         </div>
