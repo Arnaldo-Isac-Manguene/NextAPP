@@ -24,14 +24,14 @@ function Home() {
                 </ul>
             </div>
             <div className='col-4'>
-                <div className='d-flex justify-content-center'>
+                <div className='d-flex justify-content-center mt-5'>
                     <Image 
                         src="./images/pict.png" 
                         height={300} 
                         unoptimized
                         width={280} 
                         alt="New Sitle" 
-                        className='rounded-circle mt-5'
+                        className='rounded-circle'
                     />
                     
                 </div>
