@@ -56,7 +56,7 @@ function Home() {
         <div className='row mb-3'>
             <div>
                 <h3>Catalogo</h3>
-                <div class="row my-3">
+                <div class="row my-3 d-flex justify-content-between">
                     <div class="col-sm-4">
                         <div class="card">
                             <div class="card-header">
