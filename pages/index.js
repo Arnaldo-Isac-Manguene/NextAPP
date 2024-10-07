@@ -31,7 +31,7 @@ function Home() {
                         unoptimized
                         width={280} 
                         alt="New Sitle" 
-                        className='rounded-circle'
+                        className='rounded-circle mt-5'
                     />
                     
                 </div>
