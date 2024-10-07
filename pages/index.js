@@ -56,8 +56,8 @@ function Home() {
         <div className='row mb-3'>
             <div>
                 <h3>Catalogo</h3>
-                <div class="row">
-                    <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="row my-3">
+                    <div class="col-sm-4">
                         <div class="card">
                             <div class="card-header">
                                 <h5 class="card-title">Special title treatment</h5>
