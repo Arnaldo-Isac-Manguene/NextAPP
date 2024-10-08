@@ -53,17 +53,21 @@ function Home() {
                     <h2>Lista de projectos</h2>
                     <ul>
                         <li>Projecto de Escola de Condução 
-                            (com <span className='text-decoration-underline fw-bolder'>Spring-boot</span> )<i class="material-icons">keyboard_double_arrow_right</i>
+                            (com <span className='text-decoration-underline fw-bolder'>Spring-boot</span> )
+                            <i class="material-icons">keyboard_double_arrow_right</i>
                         </li>
-                        <li>Projecto de Atendimento ao Cliente 
-                            (apelidado: <span className='text-decoration-underline fw-bolder'>Ficha de Trabalho</span> com o laravel)
-                        </li><i class="material-icons">keyboard_double_arrow_right</i>
+                        <li>
+                            Projecto de Atendimento ao Cliente 
+                            (apelidado: <span className='text-decoration-underline fw-bolder'>Ficha de Trabalho</span> com o laravel)                   
+                            <i class="material-icons">keyboard_double_arrow_right</i>
+                        </li>
                         <li>Projecto ToDo List 
                             (<span className='text-decoration-underline fw-bolder'>Full stack</span> com django) 
-                        </li><i class="material-icons">keyboard_double_arrow_right</i>
+                            <i class="material-icons">keyboard_double_arrow_right</i>
+                        </li>
                         <li>Projecto Todo List 
-                            (<span className='text-decoration-underline fw-bolder'>Backend</span> Django, <span className='text-decoration-underline fw-bolder'>Frontend</span> vuejs)
-                        </li><i class="material-icons">keyboard_double_arrow_right</i>
+                            (<span className='text-decoration-underline fw-bolder'>Backend</span> Django, <span className='text-decoration-underline fw-bolder'>Frontend</span> vuejs)<i class="material-icons">keyboard_double_arrow_right</i>
+                        </li>
                     </ul>
                 </div>
             </div>
