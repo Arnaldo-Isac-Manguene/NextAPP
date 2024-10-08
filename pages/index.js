@@ -53,7 +53,7 @@ function Home() {
                     <h2>Lista de projectos</h2>
                     <ul>
                         <li>Projecto de Escola de Condução 
-                            (com <span className='text-decoration-underline fw-bolder'>Spring-boot</span> <i class="fa-icon">arrow</i>)
+                            (com <span className='text-decoration-underline fw-bolder'>Spring-boot</span> <i class="material-icons">person user</i>)
                         </li>
                         <li>Projecto de Atendimento ao Cliente 
                             (apelidado: <span className='text-decoration-underline fw-bolder'>Ficha de Trabalho</span> com o laravel)
