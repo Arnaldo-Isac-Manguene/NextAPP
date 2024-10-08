@@ -37,7 +37,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className='row mb-3 d-flex justify-content-between'>
+        <div className='row my-3 d-flex justify-content-between'>
             <div className='col-7'>                
                 <div>
                     <h2>Formação</h2>
@@ -71,7 +71,7 @@ function Home() {
                     </ul>
                 </div>
             </div>
-            <div class="col-4"  >
+            <div class="col-4 mt-4"  >
                 <Formulario />
             </div>
         </div>
