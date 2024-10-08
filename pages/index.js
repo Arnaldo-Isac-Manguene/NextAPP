@@ -24,7 +24,7 @@ function Home() {
                 </ul>
             </div>
             <div className='col-5'>
-                <div className='d-flex justify-content-center'>
+                <div className='mt-5 d-flex justify-content-center'>
                     <Image 
                         src="./images/pict.png" 
                         height={300} 
