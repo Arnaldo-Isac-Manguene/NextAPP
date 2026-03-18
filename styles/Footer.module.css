@@ -25,12 +25,12 @@
     color: #eee;
     text-decoration: none;
 }
-.informations div.about Link:hover{
-    color: #eee;
+.informations div.links Link:hover{
+    color: #efafaf;
     text-decoration: underline;
 }
-.informations div.links Link:hover{
-    color: #eee;
+.informations div.about Link:hover{
+    color: #efafaf;
     text-decoration: underline;
 }
 .informations div.about{
