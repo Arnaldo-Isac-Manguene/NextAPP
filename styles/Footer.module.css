@@ -1,5 +1,5 @@
 .footer{
-    display: flex;
+    /* display: ; */
     justify-content: space-between;
     align-items: center;
     min-height: 100px;
@@ -7,10 +7,37 @@
     color: #eee;
     background: #444444;
 }
+
 .informations{
     background-color: #666666;
     display: flex;
     gap: 20px;
+}
+.informations div.links{
+    color: #eee;
+    text-decoration: none;
+}
+.informations div.about Link:hover{
+    color: #eee;
+    text-decoration: underline;
+}
+.informations div.links Link:hover{
+    color: #eee;
+    text-decoration: underline;
+}
+.informations div.about{
+    color: #eee;
+    text-decoration: none;
+}
+
+footer .social{
+    display: flex;
+    gap: 20px;
+    background-color: red;
+}
+
+.copyright{
+    padding: 10px;
 }
 @media screen and (max-width: 720px) {
     .footer{
