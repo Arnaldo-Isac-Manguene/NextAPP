@@ -5,8 +5,7 @@ export default function Footer(){
     const year = new Date();
     return (
         <footer className={ styles.footer }>
-            <p>Copyright &copy; { year.getUTCFullYear() }</p>
-            <p>TechModern</p>
+            <p>Copyright &copy; { year.getUTCFullYear() } | TechModern</p>
         </footer>
     )
 }
