@@ -15,26 +15,26 @@
     display: flex;
     gap: 20px;
 }
-.informations div.links{
+.informations .links{
     color: #eee;
     text-decoration: none;
     display: block;
     gap: 20px;
 }
-.informations div.links Link{
+.informations Link{
     color: #eee;
     text-decoration: none;
 }
-.informations div.links Link:hover{
+.informations Link:hover{
     color: #efafaf;
     text-decoration: underline;
 }
-.informations div.about Link:hover{
+.informations Link:hover{
     color: #efafaf;
     text-decoration: underline;
 }
-.informations div.about{
-    color: #eee;
+.informations .about{
+    color: #0fe;
     text-decoration: none;
 }
 
