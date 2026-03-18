@@ -9,11 +9,19 @@
 }
 
 .informations{
+    display: space-between;
+    padding: 10px;
     background-color: #666666;
     display: flex;
     gap: 20px;
 }
 .informations div.links{
+    color: #eee;
+    text-decoration: none;
+    display: block;
+    gap: 20px;
+}
+.informations div.links Link{
     color: #eee;
     text-decoration: none;
 }
