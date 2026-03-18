@@ -7,7 +7,7 @@ export default function Footer(){
         <footer className={ styles.footer }>
             <div className={ styles.informations }>
                 <div className={ styles.logo }>
-                    <img src="/techmodern_logo.png" alt="TechModern" />
+                    <img src="../techmodern_logo.png" alt="TechModern" />
                     <div className={ styles.address }>
                         <h2>TechModern</h2>
                         <p>123 Main Street</p>
